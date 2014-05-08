@@ -22,6 +22,7 @@ if (is_array($ogrenciler)){
 }
 
 
+//Bir diziyi kendi içinde gruplandırabiliriz. Ben örnek olarak meyveleri gruplandırdım. 
 
 $meyveler["kuru_meyve"] = array("kuru kayisi","kuru incir");
 $meyveler["cekirdekli_meyve"] = array("karpuz","erik","uzum");
@@ -31,7 +32,7 @@ echo "Kuru Meyveler : "." ".$meyveler["kuru_meyve"].'<br>';
 echo "Cekirdekli Meyveler : "." ".$meyveler["cekirdekli_meyve"].'<br>';
 echo "Sulu Meyveler : "." ".$meyveler["sulu_meyve"].'<br>';
 
-$varmi = in_array("kuru incir",$meyveler);
+$varmi = in_array("kuru incir",$meyveler);   //Elemanın dizi içerisinde olup olmadığını "in_array()" fonksiyonu ile kontrol edebiliriz.
 
 if($varmi)
     echo "Aradiginiz meyve , meyveler icinde vardir.".'<br>';
