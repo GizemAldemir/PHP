@@ -1,0 +1,41 @@
+<?php
+
+
+echo "Hello World!";  //echo yerine print sözcüğünü de kullanabiliriz.
+
+
+ //Dizi oluşturma 
+ 
+$ogrenciler = array("elma", "armut");
+
+$ogrenciler[]="kiraz";    //kiraz meyvesini 2 numaralı indise 3. eleman olarak yerleştirir. 
+
+echo " Ogrenciler dizimdeki eleman sayisi : ",count($ogrenciler).'<br>'; //Count fonk. dizimizin eleman sayısını verir.
+
+
+// "is_array" fonksiyonu değişkenin dizi olup olmadığını kontrol eder. 
+
+if (is_array($ogrenciler)){
+    echo " Bu Bir Dizidir.".'<br>';
+}else{
+    echo " Bu Bir Dizi Degildir".'<br>';
+}
+
+
+
+$meyveler["kuru_meyve"] = array("kuru kayisi","kuru incir");
+$meyveler["cekirdekli_meyve"] = array("karpuz","erik","uzum");
+$meyveler["sulu_meyve"] = array("portakal","limon","greyfurt");
+
+echo "Kuru Meyveler : "." ".$meyveler["kuru_meyve"].'<br>';
+echo "Cekirdekli Meyveler : "." ".$meyveler["cekirdekli_meyve"].'<br>';
+echo "Sulu Meyveler : "." ".$meyveler["sulu_meyve"].'<br>';
+
+$varmi = in_array("kuru incir",$meyveler);
+
+if($varmi)
+    echo "Aradiginiz meyve , meyveler icinde vardir.".'<br>';
+else
+    echo "Meyvelerde boyle bir meyve yoktur.".'<br>';
+echo "Gizem " .$meyveler["kuru_meyve"][0]." yi sevmez.".'<br>';
+?>
