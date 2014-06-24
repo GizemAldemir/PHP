@@ -7,6 +7,9 @@ die();   //--->die() fonksiyonu kendisinden sonra gelen her şeyin çalışması
 
 echo "World";
 
+//Benzer olan bir fonksiyonda exit() fonksiyonu. Yukarıdaki örneği exit() ile de aynı şekilde çalıştırabiliiz.
+
+
 
 //Triple equals (===)
 
