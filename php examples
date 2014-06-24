@@ -1,0 +1,56 @@
+<?php
+
+echo "Hello ";
+
+die();   //--->die() fonksiyonu kendisinden sonra gelen her şeyin çalışmasını durdurur. 
+//Commentlemediğimiz takdirde ekrana "World sözcügü yazdırılmaz.
+
+echo "World";
+
+
+//Triple equals (===)
+
+number1 = '3';
+number2 = 3;
+
+if(number1==number2)
+
+echo "numbers are equal";
+
+else 
+
+echo "numbers aren't equal;
+
+//Yukarıda ki kodda bir farklılık yok. Sıradan bir eşitlik kontrol işlemi. 
+//Ekrana numbers are equal yazısı basılır peki ya kod şu şekilde olsaydı :
+
+
+number1 = '3';
+number2 = 3;
+
+if(number1===number2)
+
+echo "numbers are equal";
+
+else 
+
+echo "numbers aren't equal;
+
+
+//Dikkatinizi çektiyse bu kodda hem 3 adet eşitlik sembolü var (Triple equals) hem de birinci değişkenin tipi string 
+//İşte 3 eşitlik bunu da kontrol ediyor. Değişkenler aynı tipte mi? 
+//Gördüğünüz gibi değil. İlki string iken ikincisi integer. Ekrana numbers aren't equal basılır.
+
+
+
+
+
+
+
+
+
+
+
+
+
+?>
