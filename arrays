@@ -39,4 +39,20 @@ if($varmi)
 else
     echo "Meyvelerde boyle bir meyve yoktur.".'<br>';
 echo "Gizem " .$meyveler["kuru_meyve"][0]." yi sevmez.".'<br>';
+
+
+//Explode fonksiyonun kullanımı ile alakalı bir ornek : (Cümleyi noktadan itibaren bölüyor for döngüsüyle alt alta yazdırıyor.)
+
+$cumle2 = "Elmanin birinci yarisi. Elmanin ikinci yarisi".'<br>';
+$bol = explode("." , $cumle2);
+
+for($j=0; $j<2 ; $j++)
+{
+    echo $bol[$j].'<br>';
+}
+
+
+
+
+
 ?>
