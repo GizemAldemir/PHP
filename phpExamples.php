@@ -45,15 +45,4 @@ echo "numbers aren't equal;
 //Gördüğünüz gibi değil. İlki string iken ikincisi integer. Ekrana numbers aren't equal basılır.
 
 
-
-
-
-
-
-
-
-
-
-
-
 ?>
