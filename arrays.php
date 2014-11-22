@@ -21,7 +21,6 @@ if (is_array($ogrenciler)){
     echo " Bu Bir Dizi Degildir".'<br>';
 }
 
-
 //Bir diziyi kendi içinde gruplandırabiliriz. Ben örnek olarak meyveleri gruplandırdım. 
 
 $meyveler["kuru_meyve"] = array("kuru kayisi","kuru incir");
